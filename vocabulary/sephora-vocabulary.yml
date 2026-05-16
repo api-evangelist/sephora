@@ -1,0 +1,18 @@
+vocabulary: sephora
+description: Vocabulary for Sephora's beauty retail operations
+terms:
+  - term: Beauty Insider
+    definition: Sephora's tiered loyalty program with points and benefits
+  - term: Rouge
+    definition: Top tier of the Beauty Insider loyalty program
+  - term: SKU
+    definition: Stock-keeping unit identifying a specific product variant
+  - term: Storefront
+    definition: The consumer-facing ecommerce site and mobile app
+  - term: Brand Partner
+    definition: A third-party brand whose products are sold through Sephora
+dimensions:
+  - name: category
+    values: [Makeup, Skincare, Fragrance, Hair, Bath&Body, Tools]
+  - name: channel
+    values: [Store, Web, Mobile, KohlsShopInShop]

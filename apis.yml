@@ -7,11 +7,47 @@ tags:
   - Retail
   - Beauty
   - Personal Care
-description: 'A French multinational chain of personal care and beauty stores and a subsidiary of LVMH. Operates over 2,700 locations worldwide offering cosmetics, skincare, fragrance, and body products from hundreds of brands.'
+  - Ecommerce
+description: >-
+  Sephora is a French multinational chain of personal care and beauty stores
+  and a subsidiary of LVMH, operating 2,700+ locations worldwide and a
+  large ecommerce footprint. Sephora does not publish a public developer
+  API and does not maintain a public GitHub organization. The Sephora
+  storefront and Beauty Insider loyalty program are accessed only through
+  consumer apps and the website; affiliate marketing partnerships are
+  brokered through third-party networks such as Rakuten Advertising and
+  Skimlinks rather than a Sephora-owned API.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.sephora.com/
+  - type: BeautyInsiderLoyalty
+    url: https://www.sephora.com/beauty/beauty-insider
+  - type: AffiliateProgram
+    url: https://www.sephora.com/help/article/sephora-affiliate-program
+  - type: Vocabulary
+    url: vocabulary/sephora-vocabulary.yml
+  - type: Features
+    data:
+      - name: Beauty Storefront
+        description: Sephora.com sells cosmetics, skincare, fragrance, and body products
+      - name: Beauty Insider Loyalty
+        description: Tiered loyalty program with points, perks, and exclusive events
+      - name: Affiliate Marketing
+        description: Affiliate partnerships brokered through Rakuten Advertising and similar networks
+      - name: Brand Portfolio
+        description: Hundreds of cosmetic and beauty brands curated for stores and online
+  - type: UseCases
+    data:
+      - name: Consumer Beauty Discovery
+        description: Customers browse, review, and purchase beauty products
+      - name: Loyalty Redemption
+        description: Beauty Insider members redeem points for products and experiences
+      - name: Content Affiliate Marketing
+        description: Bloggers earn commissions on referred sales via third-party networks
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
