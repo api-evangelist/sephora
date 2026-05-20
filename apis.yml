@@ -22,6 +22,10 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Sephora-US-Digital
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sephora
   - type: Website
     url: https://www.sephora.com/
   - type: BeautyInsiderLoyalty
