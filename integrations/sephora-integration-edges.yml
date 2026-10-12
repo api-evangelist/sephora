@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sephora/integrations
+- https://n8n.io/integrations/sephora/
+- https://composio.dev/toolkits/sephora
+- https://monid.ai/tools/sephora
+checked:
+- https://composio.dev/toolkits/sephora
+- https://monid.ai/tools/sephora
+- https://n8n.io/integrations/sephora/
+- https://zapier.com/apps/sephora/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
